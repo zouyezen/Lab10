@@ -1,5 +1,4 @@
 import java.io.File;
-import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.net.URI;
 import java.net.URISyntaxException;
@@ -116,12 +115,11 @@ public class Sorting {
      * algorithms on different sizes of the input and plots the time taken by each.
      *
      * @param unused unused input arguments
-     * @throws FileNotFoundException thrown if the file is not found
      * @throws URISyntaxException thrown if the file is not found
+     * @throws IOException thrown if the file is not found
      */
     @SuppressWarnings("checkstyle:magicnumber")
-    public static void main(final String[] unused)
-            throws IOException, URISyntaxException {
+    public static void main(final String[] unused) throws IOException, URISyntaxException {
 
         /*
          * Prompt for the input file.

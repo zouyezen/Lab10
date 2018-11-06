@@ -44,6 +44,8 @@
 
         <property name="basedir" value="${basedir}"/>
     -->
+  <!-- CS125: Add warning suppression via @SuppressWarnings Java annotation. -->
+  <module name="SuppressWarningsFilter" />
 
   <property name="fileExtensions" value="java, properties, xml"/>
 
@@ -82,6 +84,8 @@
   </module>
 
   <module name="TreeWalker">
+    <!-- CS125: Add warning suppression via @SuppressWarnings Java annotation. -->
+    <module name="SuppressWarningsHolder" />
 
     <!-- Checks for Javadoc comments.                     -->
     <!-- See http://checkstyle.sf.net/config_javadoc.html -->
