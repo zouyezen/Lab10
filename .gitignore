@@ -1,0 +1,14 @@
+!gradle-wrapper.jar
+/.gradle
+.idea/modules/test-output/
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/.name
+.idea/libraries/
+/out/
+/build/
+/test-output/
+/file-uploads/
+*.class
+*.swp
+*.swo
